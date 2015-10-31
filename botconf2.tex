@@ -462,7 +462,7 @@ After investigation, the report was confirmed to be a false positive. A new even
 
 \section{Implementation}
 
-DIP events can be published as feeds that are no different from other threat intelligence feeds, such as static lists of recent events, or using the TAXII project.
+DIP events can be published as feeds that are no different from other threat intelligence feeds, such as static lists of recent events, or using the TAXII \cite{TAXII} project.
 
 However, as these events represent incremental changes and not a global state, exposing them as a feed is not always convenient from an operational perspective. Answering the common questions "when was this IP address assigned to the current owner", "how many incidents were reported and addressed on this web site", or "is same subnet shared by many unrelated customers" can only be answered by replaying a sequence of events.
 
@@ -498,6 +498,10 @@ DIP is extremely simple, yet fills a blind spot in the world of threat intellige
 \emph{Structured Threat Information eXpression} \hskip 1em plus
   0.5em minus 0.4em\relax http://stixproject.github.io/
   
+\bibitem{TAXII}
+\emph{Trusted Automated eXchange of Indicator Information} \hskip 1em plus
+  0.5em minus 0.4em\relax https://taxiiproject.github.io/
+
 \bibitem{ERIS}
 \emph{ERIS} \hskip 1em plus
   0.5em minus 0.4em\relax https://github.com/jedisct1/eris
